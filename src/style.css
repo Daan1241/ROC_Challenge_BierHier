@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+    text-decoration: none;
+}
+
+#wrapper {
+    background-color: red;
+    margin: auto;
+    width: 90%;
+}
+
+#topbar {
+    padding: 30px;
+    padding-top: 150px;
+    color: white;
+    font-size: 150%;
+    background-size: 100% 100%;
+}
+
+#topbar a {
+    padding-right: 50px;
+    font-family: "Product Sans";
+    color: white;
+    text-shadow: 0px 0px 4px black;
+}
+
+
+#articleWrapper {
+    background-color: #efefef;
+    padding: 20px;
+}
+
+article {
+    display: inline-block;
+    border: 0px solid black;
+    width: 28%;
+    padding: 30px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+h1 {
+    font-family: "Product Sans";
+}
+
+
+#footer {
+    background-color: #121212;
+    height: 200px;
+    color: white;
+    padding: 50px;
+    line-height: 25px;
+
+}
+
+
+/*CONTACT PAGE */
+
+.contactField {
+    margin-left: 30px;
+}
+
+.contactField input[type=text], textarea {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+input[type=submit] {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(#FFFFFF, #eeeeee);
+}
+
+
+/*CONCERT PAGE*/
+.concertImage {
+    width: 50%;
+    padding: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#concertList {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 30px;
+    width: 30%;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#concertRow {
+    background-color: #121212;
+    margin: auto;
+    padding: 5px;
+    width: 50%;
+    max-height: 133px;
+    overflow: hidden;
+}
+
+#concertRow img {
+    display: inline-block;
+    height: 133px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+
+.concertListItem {
+    background-color: white;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 5px;
+}
+
+
+/*Concert Detail Page*/
+
+.concertDetailImage {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.concertArticle {
+    border: 0px solid black;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+#concertDetailFeature {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.concertDetailAligner {
+    border: 0px solid black;
+    display: inline-block;
+    width: 40%;
+    margin-left: 20px;
+}
+
+
+/*receipe page*/
+
+.smallParagraph {
+    display: inline-block;
+    width: 75%;
+    margin-bottom: 30%;
+
+}
+
+.receipeArticleContainer {
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 45%;
+
+    border: 0px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.receipePreview {
+    vertical-align: top;
+    display: inline-block;
+    width: 45%;
+    height: 200px;
+    margin-right: 4%;
+    margin-bottom: 20px;
+}

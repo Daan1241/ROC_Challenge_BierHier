@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bierhier- CONCERTEN</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/main.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="topbar" style="background-image: url('images/banner3.jpg');">
+        <a href="index.html">Home</a>
+        <a href="concerten.html" style="text-shadow: 0px 0px 5px white">Concerten</a>
+        <a href="sport.html">Sport</a>
+        <a href="recepten.html">Recepten</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div id="articleWrapper">
+
+        <h1 style="padding: 28px; font-size: 300%;">Concerten</h1>
+        <img id="previewImage" src="images/concert1.jpg" name="concert1.jpg" class="concertImage">
+        <div id="concertList">
+            <div class="concertListItem">Amsterdam Noord - Vrijdag 12 Januari</div>
+            <div class="concertListItem">Amsterdam Noord - Zaterdag 13 Januari</div>
+            <div class="concertListItem">Alkmaar - Vrijdag 19 Januari</div>
+            <div class="concertListItem">Alkmaar - Zaterdag 20 Januari</div>
+            <div class="concertListItem">Alkmaar - Zondag 21 Januari</div>
+            <div class="concertListItem">Rotterdam - Vrijdag 26 Januari</div>
+            <div class="concertListItem">Rotterdam - Vrijdag 7 Februari</div>
+            <div class="concertListItem">Almere - Zaterdag 8 Februari</div>
+            <div class="concertListItem">Almere - Vrijdag 14 Februari</div>
+            <div class="concertListItem" style="border-bottom: 0px">Dronten - Zaterdag 15 Februari</div>
+        </div>
+
+
+        <br>
+        <br>
+        <h2 onclick="sendConcertDetail(document.getElementById('previewImage').name)" style="padding-left: 9.5%;">Meer over deze band</h2><br>
+        <div id="concertRow">
+            <center>
+                <nobr>
+                    <img id="concert1.jpg" onClick="concertChange(this.id)" src="images/concert1.jpg">
+                    <img id="concert2.jpg" onClick="concertChange(this.id)" src="images/concert2.jpg">
+                    <img id="concert3.jpg" onClick="concertChange(this.id)" src="images/concert3.jpg">
+                </nobr>
+            </center>
+        </div>
+
+
+    </div>
+    <div id="footer">
+        <b>Bekijk deze pagina's ook</b><br>
+        <div style="text-decoration: underline;">
+            Home<br>
+            Contact<br>
+            Over ons<br>
+            Concerten<br>
+            Sporten<br>
+            Recepten<br>
+        </div>
+        <br>
+        &copy; 2019 BierHier studios
+        <br>
+
+    </div>
+
+
+</div>
+</body>
+</html>
