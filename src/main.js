@@ -75,7 +75,7 @@ function sendConcertDetail(previewImage) {
 
 function loadConcertBand() {
     var link = document.URL;
-    link = link.replace("file:///D:/Programming/school/PHP/BierHier/concerten_detail.html?band=", "");
+    link = link.replace("http://bluepixelanimations.nl/school/bierhier/concerten_detail.html?band=", "");
     if (link == "blof") {
         concertChangeDetail("concert1.jpg");
 
@@ -93,7 +93,7 @@ function loadConcertBand() {
 
 function loadReceipeDetail() {
     var link = document.URL;
-    link = link.replace("file:///D:/Programming/school/PHP/BierHier/recepten_detail.html?receipe=", "");
+    link = link.replace("http://bluepixelanimations.nl/school/bierhier/recepten_detail.html?receipe=", "");
     if (link == "boerenkool") {
     document.getElementById('receipeTitle').innerHTML = "Boerenkool met worst";
     document.getElementById('receipeDetailPreviewImage').src = "images/recepten/receipe3.jpg";
