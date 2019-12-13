@@ -19,7 +19,7 @@
     background-size: 100% 100%;
 }
 
-topbar a {
+#topbar a, #footer a {
     padding-right: 50px;
     font-family: "Product Sans";
     color: white;
