@@ -90,3 +90,19 @@ function loadConcertBand() {
         concertChangeDetail("concert1.jpg");
     }
 }
+
+function loadReceipeDetail() {
+    var link = document.URL;
+    link = link.replace("file:///D:/Programming/school/PHP/BierHier/recepten_detail.html?receipe=", "");
+    if (link == "boerenkool") {
+    document.getElementById('receipeTitle').innerHTML = "Boerenkool met worst";
+    document.getElementById('receipeDetailPreviewImage').src = "images/recepten/receipe3.jpg";
+    } else if (link == "stamppot") {
+        document.getElementById('receipeTitle').innerHTML = "Stamppot met jus";
+        document.getElementById('receipeDetailPreviewImage').src = "images/recepten/receipe2.jpg";
+    }
+    else {
+        document.getElementById('receipeTitle').innerHTML = "Boerenkool met worst";
+        document.getElementById('receipeDetailPreviewImage').src = "images/recepten/receipe3.jpg";
+    }
+}

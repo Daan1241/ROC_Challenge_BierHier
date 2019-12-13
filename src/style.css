@@ -6,7 +6,7 @@
 }
 
 #wrapper {
-    background-color: red;
+    background-color: gray;
     margin: auto;
     width: 90%;
 }
@@ -160,6 +160,12 @@ input[type=submit] {
 
 }
 
+.smallParagraph a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .receipeArticleContainer {
     margin-left: 30px;
     margin-bottom: 50px;
@@ -177,4 +183,38 @@ input[type=submit] {
     height: 200px;
     margin-right: 4%;
     margin-bottom: 20px;
+}
+
+
+/* receipeDetail page */
+.receipeDetailDivider {
+    width: 45%;
+    display: inline-block;
+    border: 0px solid black;
+    vertical-align: top;
+}
+
+#receipeDetailArticle {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-right: 100px;
+}
+
+#receipeDetailPreviewImage {
+    width: 100%;
+}
+
+.receipeDetailImage {
+    width: 200px;
+    height: 200px;
+}
+
+#receipeRow {
+text-align: center;
+}
+
+#receipeRow img {
+    margin: 20px;
+    border: 1px solid black;
+
 }
